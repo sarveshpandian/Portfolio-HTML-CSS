@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  line-height: 1.6;
+  background: linear-gradient(silver, cornflowerblue);
+}
+header {
+  background-color:#222;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover{
+  color: cornflowerblue;  
+}
+
+.self {
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background:linear-gradient(cornflowerblue, black);
+  animation-name: anime;
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
+}
+@keyframes anime{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0px); opacity:1;}
+}
+.creation{
+  animation-name: anime;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
+}
+@keyframes anime{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0px); opacity:1;}
+}
+.self p {
+  font-size: 18px;
+}
+.creation {
+  display: inline-block;
+  background-color: cornflowerblue;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.creation:hover {
+  background-color: coral;                        ;
+}
+section {
+  padding: 60px;
+  max-width: 900px;
+  margin: auto;
+
+}
+.project1{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #222;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-delay:0;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
+}
+@keyframes slide{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0px); opacity:1;}
+}
+#projects{
+  margin-top: -70px;
+}
+.project2{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #222;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
+}
+@keyframes slide{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0px); opacity:1;}
+}
+.project3{
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #222;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
+}
+@keyframes slide{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0px); opacity:1;}
+}
+#contact{
+  width: 1200px;
+  background:linear-gradient(cornflowerblue, white);
+  border-radius: 30px;
+  margin-left: 160px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid black;
+  box-shadow: 5px 5px 3px #222;
+}
+button{
+  padding: 10px;
+  background-color: #222;
+  color: aliceblue;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:darkblue;
+  cursor: pointer;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
